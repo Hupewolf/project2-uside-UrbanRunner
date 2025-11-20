@@ -1,0 +1,19 @@
+
+:root{
+    /* Website Colors */
+    --a-main-color: #132037;
+    --a-2-main-color: #0F1A2C;
+    --a-2-2-main-color: #8895AA;
+    --a-accent-color: #F2572B;
+
+    /* Text Colors */
+    --main-text-color: #FFFFFF;
+    --secondary-text-color:#BEBCBC;
+
+}
+
+body{
+    margin: 0 auto;
+    background-color: var(--a-main-color);
+}
+

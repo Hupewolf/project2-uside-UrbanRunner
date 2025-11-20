@@ -1,0 +1,95 @@
+:root{
+    /* Website Colors */
+    --a-main-color: #132037;
+    --a-2-main-color: #0F1A2C;
+    --a-2-2-main-color: #8895AA;
+    --a-accent-color: #F2572B;
+
+    /* Text Colors */
+    --main-text-color: #FFFFFF;
+    --secondary-text-color:#BEBCBC;
+    --navbar-color: #DEDEDE;
+
+}
+
+body{
+    margin: 0 auto;
+    background-color: var(--a-main-color);
+    font-family: 'Teko';
+}
+
+footer{
+    background-color: var(--a-2-main-color);
+    .footer-wrap{
+        background-color: var(--a-2-main-color);
+        max-width: 1440px;
+        padding: 0 100px;
+        height: 355px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wrap{
+            width: 100%;
+            max-width: 1240px;
+            .content-wrap{
+                display: flex;
+                justify-content: space-between;
+                .left-side{
+                    .logo-footer{
+                        font-size: 45px;
+                        color: var(--a-accent-color);
+                        text-decoration: none;
+                    }
+                    .text{
+                        width: 254px;
+                        font-size: 20px;
+                        color: var(--navbar-color);
+                    }
+                }
+                .right-side{
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 754px;
+                    width: 100%;
+                    .box{
+                        .heading{
+                            font-size: 45px;
+                            color: #FFFFFF;
+                        }
+                        .list{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0;
+                            .item a{
+                                text-decoration: none;
+                                color: var(--navbar-color);
+                                font-size: 20px;
+                            }
+                            .item a:hover{
+                                color: var(--a-accent-color);
+                                transition: all 0.3s ease;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .line{
+                width: 100%;
+                max-width: 999px;
+                height: 1px;
+                background-color: #FFFFFF;
+                margin: 0 auto;
+                margin-top: 76px;
+            }
+            .small-text{
+                font-size: 20px;
+                width: 100%;
+                color: var(--navbar-color);
+                text-align: center;
+                margin-top: 37px;
+            }
+        }
+    }
+}
