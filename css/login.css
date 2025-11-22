@@ -221,11 +221,11 @@ footer{
         border-radius: 10px;
         .hero-section{
             position: absolute;
-            background-image: url(sign/sign-hero.svg);
+            background-image: url(login/log-hero.svg);
             background-position: center;
             height: 614px;
             width: 646px;
-            right: 0;
+            left: 0;
             top: 0;
             transition: all 0.5s ease;
             @media screen and (max-width: 1340px) {
@@ -240,7 +240,7 @@ footer{
         }
         .wrap-input{
             position: absolute;
-            left: 60px;
+            right: 60px;
             top: 12.5px;
             width: 474px;
             height: 589px;
@@ -304,7 +304,32 @@ footer{
 
                             }
                         }
-                    }        
+                    }   
+                    
+                    .box-remember-me{
+                        display: flex;
+                        justify-content: space-between;
+                        .box-remember{
+                            display: flex;
+                            gap: 14px;
+                            align-items: center;
+                            input{
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .text{
+                                font-size: 20px;
+                            }
+                        }
+                        .forgot-password{
+                            color: #415789;
+                            font-size: 20px;
+                        }
+                        .forgot-password:hover{
+                            color: var(--a-accent-color);
+                        }
+                    }
+
                     .box-submit{
                         margin-top: 14px;
                         background-color: var(--a-2-main-color);
@@ -326,7 +351,7 @@ footer{
                         justify-content: center;
                         align-items: center;
                         .line{
-                            width: 40%;
+                            width: 39%;
                             height: 1px;
                             background-color: black;
                         }
