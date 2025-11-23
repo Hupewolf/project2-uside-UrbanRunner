@@ -178,7 +178,7 @@ header{
                 .card-content {
                     position: absolute;
                     left: 0;
-                    bottom: -150px; /* Ẩn xuống dưới */
+                    bottom: -190px; /* Ẩn xuống dưới */
                     width: 100%;
                     padding: 15px 10px;
                     background: rgba(0,0,0,0.55);
