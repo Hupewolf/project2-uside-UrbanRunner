@@ -190,7 +190,7 @@ header{
     gap: 35px;
 }
 .wrapper .container .box-search .search {
-    width: 80%;
+    width: 85%;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -283,7 +283,7 @@ input::placeholder {
     color: rgba(171, 171, 171, 1);
 }
 .wrapper .container .box-search .button-find-me {
-    width: 80%;
+    width: 85%;
     height: 50px;
     background-color: rgba(242, 87, 43, 1);
     border-radius: 25px;
